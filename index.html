@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA Roadmap - Your Learning Path</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 DSA Learning Roadmap</h1>
+            <p class="subtitle">A structured guide to master Data Structures & Algorithms</p>
+        </header>
+
+        <nav class="controls">
+            <div class="filter-group">
+                <label for="weekFilter">Filter by Week:</label>
+                <select id="weekFilter">
+                    <option value="all">All Weeks</option>
+                </select>
+            </div>
+            <div class="stats">
+                <span class="completed-count">Completed: <strong id="completedCount">0</strong></span>
+            </div>
+        </nav>
+
+        <main id="roadmapContainer">
+            <!-- Roadmap will be dynamically inserted here -->
+        </main>
+
+        <footer>
+            <p>💡 Tip: Click on any topic to mark it as completed. Bookmark this page to track your progress!</p>
+        </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
